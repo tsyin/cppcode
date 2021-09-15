@@ -6,7 +6,7 @@
         "type": "shell", // { shell | process }
         // 适用于 Windows 的配置：
         "windows": {
-            "command": "g++",
+            "command": "gcc",
             "args": [
                 "-g",
                 "\"${file}\"",
