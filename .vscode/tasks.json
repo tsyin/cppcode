@@ -2,11 +2,11 @@
     // 有关 tasks.json 格式的参考文档：https://go.microsoft.com/fwlink/?LinkId=733558 。
     "version": "2.0.0",
     "tasks": [{
-        "label": "gcc",
+        "label": "g++",
         "type": "shell", // { shell | process }
         // 适用于 Windows 的配置：
         "windows": {
-            "command": "gcc",
+            "command": "g++",
             "args": [
                 "-g",
                 "\"${file}\"",
