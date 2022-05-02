@@ -3,6 +3,10 @@
 using namespace std;
 
 int main(){
-    cout << 1234/2000;
+    cout << "enter two ages:";
+    int x;
+    for(x = 0;x < 10 ;x ++);
+    cout << x;
+
     return 0;
 }
